@@ -7,6 +7,7 @@ public class ExceptionChaining1 {
 	static void f() throws ExceptionB {
 		throw new ExceptionB("exception b");
 	}
+
 	static void g() throws ExceptionC {
 		try {
 			f();

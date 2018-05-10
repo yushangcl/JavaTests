@@ -20,6 +20,7 @@ public class asList {
 
 		//Arrays.asList 转换后的集合不能进行修改操作
 		list1.remove(0);
+
 	}
 
 	public static void main(String[] args) {
